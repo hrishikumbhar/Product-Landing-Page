@@ -56,6 +56,7 @@ body {
 
     .navbar .logo {
         margin-right: 50px;
+        padding-left: 20px;
     }
 
     .navbar .list li:last-child {
@@ -460,6 +461,13 @@ body {
     .feature-projects .project-cards .project-card img {
         width: 90%;
     }
+
+}
+
+@media only screen and (max-width:500px){
+    .feature-projects .project-cards .project-card {
+        margin-left: 50px;
+    }
 }
 /*----------------------- contact section --------------------*/
 .contact-section {
@@ -515,16 +523,24 @@ body {
 
 @media only screen and (max-width: 724px) {
     .contact-section {
+        
         padding: 0 10px;
     }
     .contact-section .contact-card .right button {
         margin-top: 40px;
+       
     }
     .contact-section .contact-card .left h1 {
         font-size: 1.5rem;
     }
     .contact-section .contact-card .left p {
         font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .contact-section  {
+        margin-left: 60px;
     }
 }
 
@@ -573,5 +589,11 @@ body {
     .footer {
         max-width: 0rem;
         margin: 0;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .footer-wrapper  {
+        margin-left: 60px;
     }
 }
