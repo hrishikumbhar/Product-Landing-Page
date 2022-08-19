@@ -16,8 +16,8 @@
 
 ### This project took around 7 hours to complete.
 
-### Project Link : [Link](https://product-landing-dashboard.netlify.app/)
+### Project Link : [Link](https://proj-15-product-landing-page.netlify.app/)
 
 ### Screenshot
 
-![](./screenshot/Proj15.png)
+![](./screenshot/PROJ_15.png)
